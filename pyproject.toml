@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "azure-ds-cert"
+version = "0.1.0"
+description = ""
+authors = ["dereo"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+azure-ai-ml = "^1.12.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
